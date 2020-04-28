@@ -1,0 +1,74 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1588079736150" stop="1588079853194">
+  <name>test_send_mes</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1588079736150" status="failed" stop="1588079780508">
+      <name>Test_search_text.test_send[send_001-1237873891-\u4f60\u597d-None]</name>
+      <failure>
+        <message>AssertionError: assert None in ['你好', 'goodbye', '再见', 'hello', 'nhs', '123']
+ +  where ['你好', 'goodbye', '再见', 'hello', 'nhs', '123'] = &lt;bound method Send_Mes.get_user_list of &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt;&gt;()
+ +    where &lt;bound method Send_Mes.get_user_list of &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt;&gt; = &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt;.get_user_list
+ +      where &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt; = &lt;test_send_mes.Test_search_text object at 0x000001CF537632C8&gt;.send_mes_obj</message>
+        <stack-trace>self = &lt;test_send_mes.Test_search_text object at 0x000001CF537632C8&gt;, test_num = 'send_001', number = '1237873891', text = '你好', expect = None
+
+    @pytest.mark.run(order=1)
+    @pytest.mark.parametrize("test_num, number, text, expect", read_test_data())
+    def test_send(self, test_num, number, text, expect):
+        print(test_num)
+        self.send_mes_obj.send_mes(number, text)
+&gt;       assert expect in self.send_mes_obj.get_user_list()
+E       AssertionError: assert None in ['你好', 'goodbye', '再见', 'hello', 'nhs', '123']
+E        +  where ['你好', 'goodbye', '再见', 'hello', 'nhs', '123'] = &lt;bound method Send_Mes.get_user_list of &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt;&gt;()
+E        +    where &lt;bound method Send_Mes.get_user_list of &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt;&gt; = &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt;.get_user_list
+E        +      where &lt;Page_Obj.send_message_page.Send_Mes object at 0x000001CF531E5E08&gt; = &lt;test_send_mes.Test_search_text object at 0x000001CF537632C8&gt;.send_mes_obj
+
+scripts_test\test_send_mes.py:31: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18448-MainThread"/>
+        <label name="host" value="LAPTOP-GDHA9OBN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1588079780945" status="passed" stop="1588079804691">
+      <name>Test_search_text.test_send[send_002-7218218-hello-hello]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18448-MainThread"/>
+        <label name="host" value="LAPTOP-GDHA9OBN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1588079805057" status="passed" stop="1588079828768">
+      <name>Test_search_text.test_send[send_003-12783284-\u518d\u89c1-\u518d\u89c1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18448-MainThread"/>
+        <label name="host" value="LAPTOP-GDHA9OBN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1588079829116" status="passed" stop="1588079853194">
+      <name>Test_search_text.test_send[send_004-34394984-goodbye-goodbye]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18448-MainThread"/>
+        <label name="host" value="LAPTOP-GDHA9OBN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

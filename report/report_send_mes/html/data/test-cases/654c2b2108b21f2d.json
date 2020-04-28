@@ -1,0 +1,60 @@
+{
+  "uid" : "654c2b2108b21f2d",
+  "name" : "Test_search_text.test_send[send_002-7218218-hello-hello]",
+  "fullName" : "test_send_mes.Test_search_text.test_send[send_002-7218218-hello-hello]",
+  "historyId" : "22dc6685465f11447692d019196fcb9a",
+  "time" : {
+    "start" : 1588079223796,
+    "stop" : 1588079244457,
+    "duration" : 20661
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GDHA9OBN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "10752-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_send_mes"
+  }, {
+    "name" : "testClass",
+    "value" : "test_send_mes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_search_text.test_send[send_002-7218218-hello-hello]"
+  }, {
+    "name" : "package",
+    "value" : "test_send_mes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "654c2b2108b21f2d.json",
+  "parameterValues" : [ ]
+}

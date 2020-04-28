@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_search",
+    "children" : [ {
+      "name" : "Test_Search.test_search_page[search_001-123]",
+      "uid" : "519aeb3d5bbb99e1",
+      "parentUid" : "a5b0badc4c0646eaefacb2bb33c7a3e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588079921842,
+        "stop" : 1588079955413,
+        "duration" : 33571
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Search.test_search_page[search_002-\\u4e2d\\u6587]",
+      "uid" : "20fd6673e17e7f45",
+      "parentUid" : "a5b0badc4c0646eaefacb2bb33c7a3e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588079955812,
+        "stop" : 1588079965656,
+        "duration" : 9844
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Search.test_search_page[search_003-$%^]",
+      "uid" : "f0168b1e56576c26",
+      "parentUid" : "a5b0badc4c0646eaefacb2bb33c7a3e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588079966088,
+        "stop" : 1588079976382,
+        "duration" : 10294
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a5b0badc4c0646eaefacb2bb33c7a3e6"
+  } ]
+}

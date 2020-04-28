@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_send_mes.Test_search_text.test_send[send_004-34394984-goodbye-goodbye]","23397",""
+"passed","test_send_mes.Test_search_text.test_send[send_003-12783284-\u518d\u89c1-\u518d\u89c1]","21692",""
+"passed","test_send_mes.Test_search_text.test_send[send_002-7218218-hello-hello]","20661",""
+"failed","test_send_mes.Test_search_text.test_send[send_001-1237873891-\u4f60\u597d-None]","35952",""

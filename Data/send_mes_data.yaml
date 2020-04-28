@@ -1,0 +1,17 @@
+Send_Message_Data:
+  send_001:
+    number: "1237873891"
+    text: "你好"
+    expext: "你好"
+  send_002:
+    number: "7218218"
+    text: "hello"
+    expect: "hello"
+  send_003:
+    number: "12783284"
+    text: "再见"
+    expect: "再见"
+  send_004:
+    number: "34394984"
+    text: "goodbye"
+    expect: "goodbye"

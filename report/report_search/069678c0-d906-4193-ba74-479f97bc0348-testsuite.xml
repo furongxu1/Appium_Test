@@ -1,0 +1,42 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1588080369119" stop="1588080425265">
+  <name>test_search</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1588080369119" status="passed" stop="1588080404317">
+      <name>Test_Search.test_search_page[search_001-123]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12172-MainThread"/>
+        <label name="host" value="LAPTOP-GDHA9OBN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1588080404589" status="passed" stop="1588080414700">
+      <name>Test_Search.test_search_page[search_002-\u4e2d\u6587]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12172-MainThread"/>
+        <label name="host" value="LAPTOP-GDHA9OBN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1588080414995" status="passed" stop="1588080425265">
+      <name>Test_Search.test_search_page[search_003-$%^]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12172-MainThread"/>
+        <label name="host" value="LAPTOP-GDHA9OBN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,66 @@
+{
+  "uid" : "704c0dfbc8726fae",
+  "name" : "Test_search_text.test_send[send_001-1237873891-\\u4f60\\u597d-None]",
+  "fullName" : "test_send_mes.Test_search_text.test_send[send_001-1237873891-\\u4f60\\u597d-None]",
+  "historyId" : "a4f9570d613a3860b2b81aaf3ae86813",
+  "time" : {
+    "start" : 1588079187640,
+    "stop" : 1588079223592,
+    "duration" : 35952
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None in ['你好', 'goodbye', '再见', 'hello', 'nhs', '123']\n +  where ['你好', 'goodbye', '再见', 'hello', 'nhs', '123'] = <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>>()\n +    where <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>> = <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>.get_user_list\n +      where <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88> = <test_send_mes.Test_search_text object at 0x000001F12EC24648>.send_mes_obj",
+  "statusTrace" : "self = <test_send_mes.Test_search_text object at 0x000001F12EC24648>, test_num = 'send_001', number = '1237873891', text = '你好', expect = None\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.parametrize(\"test_num, number, text, expect\", read_test_data())\n    def test_send(self, test_num, number, text, expect):\n        print(test_num)\n        self.send_mes_obj.send_mes(number, text)\n>       assert expect in self.send_mes_obj.get_user_list()\nE       AssertionError: assert None in ['你好', 'goodbye', '再见', 'hello', 'nhs', '123']\nE        +  where ['你好', 'goodbye', '再见', 'hello', 'nhs', '123'] = <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>>()\nE        +    where <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>> = <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>.get_user_list\nE        +      where <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88> = <test_send_mes.Test_search_text object at 0x000001F12EC24648>.send_mes_obj\n\nscripts_test\\test_send_mes.py:31: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-GDHA9OBN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "10752-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_send_mes"
+  }, {
+    "name" : "testClass",
+    "value" : "test_send_mes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_search_text.test_send[send_001-1237873891-\\u4f60\\u597d-None]"
+  }, {
+    "name" : "package",
+    "value" : "test_send_mes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "704c0dfbc8726fae.json",
+  "parameterValues" : [ ]
+}

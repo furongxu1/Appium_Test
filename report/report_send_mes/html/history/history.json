@@ -1,0 +1,79 @@
+{
+  "708afc0fb3d090ed292e41be3d07206e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a3875eb56e7b5d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588079266726,
+        "stop" : 1588079290123,
+        "duration" : 23397
+      }
+    } ]
+  },
+  "a4f9570d613a3860b2b81aaf3ae86813" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "704c0dfbc8726fae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert None in ['你好', 'goodbye', '再见', 'hello', 'nhs', '123']\n +  where ['你好', 'goodbye', '再见', 'hello', 'nhs', '123'] = <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>>()\n +    where <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>> = <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>.get_user_list\n +      where <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88> = <test_send_mes.Test_search_text object at 0x000001F12EC24648>.send_mes_obj",
+      "time" : {
+        "start" : 1588079187640,
+        "stop" : 1588079223592,
+        "duration" : 35952
+      }
+    } ]
+  },
+  "22dc6685465f11447692d019196fcb9a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "654c2b2108b21f2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588079223796,
+        "stop" : 1588079244457,
+        "duration" : 20661
+      }
+    } ]
+  },
+  "ed7158da108596b5104885b66ece52bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58647cf737a708f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588079244661,
+        "stop" : 1588079266353,
+        "duration" : 21692
+      }
+    } ]
+  }
+}

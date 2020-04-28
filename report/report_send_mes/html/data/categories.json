@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert None in ['你好', 'goodbye', '再见', 'hello', 'nhs', '123']\n +  where ['你好', 'goodbye', '再见', 'hello', 'nhs', '123'] = <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>>()\n +    where <bound method Send_Mes.get_user_list of <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>> = <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88>.get_user_list\n +      where <Page_Obj.send_message_page.Send_Mes object at 0x000001F12EC8BB88> = <test_send_mes.Test_search_text object at 0x000001F12EC24648>.send_mes_obj",
+      "children" : [ {
+        "name" : "Test_search_text.test_send[send_001-1237873891-\\u4f60\\u597d-None]",
+        "uid" : "704c0dfbc8726fae",
+        "parentUid" : "1f723ab51d218ea836398af523e443e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1588079187640,
+          "stop" : 1588079223592,
+          "duration" : 35952
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f723ab51d218ea836398af523e443e1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
