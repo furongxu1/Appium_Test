@@ -22,4 +22,4 @@
 **自动截图存放指定的目录**
 ![image](https://github.com/furongxu1/Appium_Test/blob/master/show_results/screen.png)
 **邮件测试报告**
-![image](https://github.com/furongxu1/Appium_Test/blob/master/show_results/email.png)
+![image](https://github.com/furongxu1/Appium_Test/blob/master/show_results/email.jpg)
