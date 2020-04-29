@@ -15,3 +15,4 @@
 **screen:** 截图目录
 
 **show_results:** 测试结果展示
+![image](https://github.com/furongxu1/Appium_Test/blob/master/show_results/allure_report_1.png)
