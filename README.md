@@ -12,7 +12,6 @@
 
 **Report:** 测试报告目录
  
-**Screen:** 截图目录。
-## 测试结果展示：
+**Screen:** 截图目录
 
-![](https://github.com/furongxu1/Appium_Test/raw/master/show_results/allure_report_1.png)
+**show_results:** 测试结果展示
