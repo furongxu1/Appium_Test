@@ -8,10 +8,10 @@
 
 **Data:** 测试数据目录，使用yaml文件管理页面控件元素数据和测试用例数据。
 
-**Sripts_test:** 测试脚本目录
+**sripts_test:** 测试脚本目录
 
-**Report:** 测试报告目录
+**report:** 测试报告目录
  
-**Screen:** 截图目录
+**screen:** 截图目录
 
 **show_results:** 测试结果展示
