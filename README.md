@@ -10,7 +10,7 @@
 
 **Sripts_test:** 测试脚本目录
 
-**Report：**测试报告目录
+**Report:** 测试报告目录
  
 **Screen:** 截图目录。
 
